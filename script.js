@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
             onClick: (event, elements) => {
                 if (elements.length > 0) {
                     const index = elements[0].index;
-                    alert(`Details about ${timelineChart.data.labels[index]}: It was a significant month because...`);
+                    alert(`Details about ${timelineChart.data.labels[index]}: It was a significant month because You were with me all the time, atleast you made me feel so `);
                 }
             }
         }
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
             onClick: (event, elements) => {
                 if (elements.length > 0) {
                     const index = elements[0].index;
-                    alert(`Details about ${momentsChart.data.labels[index]}: This moment was special because...`);
+                    alert(`Details about ${momentsChart.data.labels[index]}: Because Its MUDIT DIXIT`);
                 }
             }
         }
